@@ -3,7 +3,13 @@ import { BsArrowRight, BsDoorOpen } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import { BiCheck, BiPhone } from 'react-icons/bi'
 import { PiCaretUpBold,PiMotorcycle } from 'react-icons/pi'
-
+import icon1 from './Asset/Chicken republic icon.svg'
+import icon2 from './Asset/Item 7.svg'
+import icon3 from './Asset/Perozona.svg'
+import icon4 from './Asset/Bitemore-icon.svg'
+import icon5 from './Asset/Brent-icon.svg'
+import icon6 from './Asset/Danjuma.svg'
+import MockUp from './Asset/MockUp.webm'
 
 const Home = () => {
   useEffect(() =>{
@@ -35,27 +41,27 @@ const Home = () => {
 
   const restaurant = [
     {
-      image:'../src/Asset/Chicken republic- edited icon.svg',
+      image: icon1,
       label:'Chicken Republic'
     },
     {
-      image:'../src/Asset/Item 7.svg',
+      image: icon2,
       label:'Item 7'
     },
     {
-      image:'../src/Asset/Perozona.svg',
+      image: icon3,
       label:'Perozona'
     },
     {
-      image:'../src/Asset/Bitemore-icon.svg',
+      image: icon4,
       label:'Bitemore'
     },
     {
-      image:'../src/Asset/Brent-icon.svg',
+      image: icon5,
       label:'Brent'
     },
     {
-      image:'../src/Asset/Danjuma.svg',
+      image: icon6,
       label:'Danjuma'
     },
   ]
@@ -85,7 +91,7 @@ const Home = () => {
             <div className="video-cont relative   max-h-[100vh] md:mb-0 mb-10">
               <div className="video-wrap mx-auto before:right-[50%] before:translate-x-[50%] before:absolute before:rounded-full before:shadow-2xl shadow-2xl before:shadow-[#65e991] shadow-[#29683e] before:bg-[#004A4D] before:h-[400px]  before:-z-[1] before:w-[400px] overflow-hidden w-fit rounded-[35px]">
               <video  autoPlay loop  width={200} >
-                  <source src="../src/Asset/MockUp.webm" type='video/webm'/>
+                  <source src={MockUp} type='video/webm'/>
                   Your browser does not support the video
               </video>
               </div>

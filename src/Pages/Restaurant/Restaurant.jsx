@@ -2,50 +2,57 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import  'react-toastify/dist/ReactToastify.css'
-import Header from '../../Component/Header'
-import Footer from '../../Component/Footer'
 import { IoLocation } from 'react-icons/io5'
 import { FaMotorcycle } from 'react-icons/fa6'
+import img1 from '../../Asset/danjuma.jpg'
+import img2 from '../../Asset/item_7.jpg'
+import img3 from '../../Asset/lagos_kitchen.jpg'
+import img4 from '../../Asset/Alice place.jpeg'
+import img5 from '../../Asset/Bitemore.jpeg'
+import img6 from '../../Asset/Brent.jpg'
+import img7 from '../../Asset/alata_milk_honey.jpg'
+
+
 const Restaurant = () => {
     const restaurant = [
         {
             name: 'Danjuma',
-            image:'../src/Asset/danjuma.jpg',
+            image: img1,
             price: 300,
             location:'Isale General, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Item 7(Go)',
-            image:'../src/Asset/item_7.jpg',
+            image: img2,
             price: 300,
             location:'Sabo, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Lagos Kitchen',
-            image:'../src/Asset/lagos_kitchen.jpg',
+            image: img3,
             price:400,
             location:'Under G area, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Alice\'s Place',
-            image:'../src/Asset/alata_milk_honey.jpg',
+            image: img4,
             price:400,
             location:'Stadium road, Ogbomoso',
-            status:'Unavailabl'
+            status:'Unavailable'
         },
         {
             name: 'Bitemore',
-            image:'../src/Asset/alata_milk_honey.jpg',
+            image: img5,
             price: 500,
             location:'Takie, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Brent',
-            image:'../src/Asset/alata_milk_honey.jpg',
+            image: img6,
             price: 500,
             location:'Takie, Ogbomosho',
             status:'Unavailabl'
@@ -53,7 +60,7 @@ const Restaurant = () => {
         },
         {
             name: 'Alata Milk and Honey',
-            image:'../src/Asset/alata_milk_honey.jpg',
+            image: img7,
             price: 400,
             location:'Under G area, Ogbomosho',
             status:'Unavailable'
