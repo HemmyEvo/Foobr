@@ -39,7 +39,7 @@ const Home = () => {
       label:'Chicken Republic'
     },
     {
-      image:'../src/Asset/Item 7 edited.svg',
+      image:'../src/Asset/Item 7.svg',
       label:'Item 7'
     },
     {
@@ -51,7 +51,7 @@ const Home = () => {
       label:'Bitemore'
     },
     {
-      image:'../src/Asset/Brent.svg',
+      image:'../src/Asset/Brent-icon.svg',
       label:'Brent'
     },
     {
