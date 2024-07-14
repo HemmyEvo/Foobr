@@ -51,7 +51,7 @@ const Home = () => {
       label:'Bitemore'
     },
     {
-      image:'../src/Asset/Brent.svg',
+      image:'../src/Asset/Brent-icon.svg',
       label:'Brent'
     },
     {
