@@ -10,42 +10,42 @@ const Restaurant = () => {
     const restaurant = [
         {
             name: 'Danjuma',
-            image:'../Asset/danjuma.jpg',
+            image:'../src/Asset/danjuma.jpg',
             price: 300,
             location:'Isale General, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Item 7(Go)',
-            image:'../Asset/item_7.jpg',
+            image:'../src/Asset/item_7.jpg',
             price: 300,
             location:'Sabo, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Lagos Kitchen',
-            image:'../Asset/lagos_kitchen.jpg',
+            image:'../src/Asset/lagos_kitchen.jpg',
             price:400,
             location:'Under G area, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Alice\'s Place',
-            image:'../Asset/alata_milk_honey.jpg',
+            image:'../src/Asset/alata_milk_honey.jpg',
             price:400,
             location:'Stadium road, Ogbomoso',
             status:'Unavailabl'
         },
         {
             name: 'Bitemore',
-            image:'../Asset/alata_milk_honey.jpg',
+            image:'../src/Asset/alata_milk_honey.jpg',
             price: 500,
             location:'Takie, Ogbomosho',
             status:'Unavailabl'
         },
         {
             name: 'Brent',
-            image:'../Asset/alata_milk_honey.jpg',
+            image:'../src/Asset/alata_milk_honey.jpg',
             price: 500,
             location:'Takie, Ogbomosho',
             status:'Unavailabl'
@@ -53,7 +53,7 @@ const Restaurant = () => {
         },
         {
             name: 'Alata Milk and Honey',
-            image:'../Asset/alata_milk_honey.jpg',
+            image:'../src/Asset/alata_milk_honey.jpg',
             price: 400,
             location:'Under G area, Ogbomosho',
             status:'Unavailable'

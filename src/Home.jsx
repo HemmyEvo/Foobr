@@ -35,27 +35,27 @@ const Home = () => {
 
   const restaurant = [
     {
-      image:'../Asset/Chicken republic- edited icon.svg',
+      image:'../src/Asset/Chicken republic- edited icon.svg',
       label:'Chicken Republic'
     },
     {
-      image:'../Asset/Item 7 edited.svg',
+      image:'../src/Asset/Item 7 edited.svg',
       label:'Item 7'
     },
     {
-      image:'../Asset/Perozona.svg',
+      image:'../src/Asset/Perozona.svg',
       label:'Perozona'
     },
     {
-      image:'../Asset/Bitemore-icon.svg',
+      image:'../src/Asset/Bitemore-icon.svg',
       label:'Bitemore'
     },
     {
-      image:'../Asset/Brent.svg',
+      image:'../src/Asset/Brent.svg',
       label:'Brent'
     },
     {
-      image:'../Asset/Danjuma.svg',
+      image:'../src/Asset/Danjuma.svg',
       label:'Danjuma'
     },
   ]
@@ -85,7 +85,7 @@ const Home = () => {
             <div className="video-cont relative   max-h-[100vh] md:mb-0 mb-10">
               <div className="video-wrap mx-auto before:right-[50%] before:translate-x-[50%] before:absolute before:rounded-full before:shadow-2xl shadow-2xl before:shadow-[#65e991] shadow-[#29683e] before:bg-[#004A4D] before:h-[400px]  before:-z-[1] before:w-[400px] overflow-hidden w-fit rounded-[35px]">
               <video  autoPlay loop  width={200} >
-                  <source src="../Asset/MockUp.webm" type='video/webm'/>
+                  <source src="../src/Asset/MockUp.webm" type='video/webm'/>
                   Your browser does not support the video
               </video>
               </div>
