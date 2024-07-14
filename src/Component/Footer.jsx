@@ -33,7 +33,7 @@ const Footer = () => {
    
       <hr className="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 " />
       <div className="md:flex space-y-6 md:space-y-0 justify-center md:px-10 items-center w-full  md:items-center md:justify-between">
-          <p className="text-sm text-gray-500 text-center  dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Foobr™</a>. All Rights Reserved.
+          <p className="text-sm text-gray-500 text-center  dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Foobr™</a>. All Rights Reserved.
           </p>
 
           <div className="flex mt-4 justify-center space-x-5 sm:mt-0">
