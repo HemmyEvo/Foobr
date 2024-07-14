@@ -17,12 +17,10 @@ import CustomerDetails from './Pages/Restaurant/CustomerDetails.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-  
+
     <Router>
     <Header />
-      <Routes>
-        
+      <Routes>  
       {/* home */}
         <Route exact path='/' Component={Home} />
         <Route  path='/restaurant' Component={Restaurant} />
@@ -31,15 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route  path='/service' Component={Service} />
         <Route  path='/about' Component={About} />
         <Route  path='/contact' Component={Contact} />
-
-
-
-
-   
-
     </Routes>
     <Footer />
     </Router>
    
-  </React.StrictMode>,
+ 
 )
