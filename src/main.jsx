@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Home from './Home.jsx'
 import './index.css'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import Info from './Pages/Restaurant/Info.jsx'
 import Restaurant from './Pages/Restaurant/Restaurant.jsx'
 import Contact from './Pages/Contact.jsx'
