@@ -5,7 +5,6 @@ import { FcCollapse } from 'react-icons/fc'
 import { toast, ToastContainer } from 'react-toastify'
 import  'react-toastify/dist/ReactToastify.css'
 import { MdDeleteForever } from 'react-icons/md'
-import useLocalStorage from '../../Utilities/useLocalStorage'
 
 const Info = () => {
   const [toggle, setToggle] = useState({});
@@ -876,16 +875,14 @@ const generateOrderNumber = () =>{
 useEffect(()=>{
   if(Object.keys(cart).length > 0 && orderNumber === 'NGN-ORD-XXXXXXXXX'){
     SetOrderNumber(`NGN-ORD-${generateOrderNumber()}`)
-    setvalues((prev) => ({...prev, orderNumber}))
   }
   else if (Object.keys(cart).length === 0 ){
     SetOrderNumber('NGN-ORD-XXXXXXXXX')
-    setvalues((prev) => ({...prev, orderNumber}))
+
   }
-  setvalues((prev) => ({...prev, total: (calculateTotalAmount()).toFixed(2) }))
+
 },[cart])
 
-const [values,setvalues] = useLocalStorage('details', {total:'', orderNumber: ''});
 
 
 

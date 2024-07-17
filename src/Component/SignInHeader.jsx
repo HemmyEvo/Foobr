@@ -139,7 +139,7 @@ const SignInHeader = () => {
 
       {Links.map((link,i)=>(
         <li key={i}>
-        <Link to={link.path} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100  dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700">{link.label}</Link>
+        <Link onClick={() => setToggle(false)}  to={link.path} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100  dark:text-white  dark:hover:bg-gray-700 dark:hover:text-white  dark:border-gray-700">{link.label}</Link>
       </li>
       ))}
       

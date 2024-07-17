@@ -72,9 +72,9 @@ const Home = () => {
        <main className='font-[sans-serif]'>
         
         <div className="section1-cont mt-10 ">
-          <div className="section1-wrap max-w-[1180px] flex flex-col justify-center items-center mx-auto ">
+          <div className="section1-wrap px-2 max-w-[1180px] flex flex-col justify-center items-center mx-auto ">
             <p className='font-bold max-[369px]:text-xs '>Delicious Meals, Delivered to Your Door</p>
-            <h1 className='font-bold max-[276px]:text-[20px] max-[369px]:text-[30px] text-[40px] md:text-[60px]  text-gray-800'>Order online today!</h1>
+            <h1 className='font-bold max-[276px]:text-[20px] max-[369px]:text-[30px] text-[40px] md:text-[60px] text-center  text-gray-800'>Order online today!</h1>
             <p className='max-w-[38rem] max-[369px]:text-sm  md:text-[18px]  mt-6 text-[#3b3b3b] text-center'>Welcome to Foobr, a premier food delivery service that brings delicious meals right to your doorstep. We make it easy for you to order online and customize your menu options to fit your taste buds. Our team of professionals works hard to ensure that each meal is prepared with the utmost care and quality, so you can enjoy a satisfying and tasty meal every time.</p>
             <div className="btn md:space-x-8 md:space-y-0 space-y-2 md:flex-row mt-5 flex flex-col">
             <Link to={'/restaurant'}><button className='px-4 py-2 text-white font-bold bg-[#004A4D] rounded-full flex items-center'> Order Now <BsArrowRight className='ml-2 font-bold text-[20px]'/> </button></Link>
